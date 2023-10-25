@@ -33,23 +33,24 @@
 ## Working with the Code
 Activate the conda environment before working with the code: 
 
-    ```
+    
     conda activate momentum
-    ```
+    
 
 ## Reproducing results
 
-### Implicit bias for 2 linear scalar factor 
+### <u>Implicit bias for 2 linear scalar factor</u>
 
 ![Implicit bias of trajectory of GD with momentum](7eqt4m.gif)
 
 To generate Figure-1 in the manuscript, please run the `2D_example.ipynb` notebook. The notebook contains instructions sequentially.
 
-### Implicit bias for 2 scalar factor with non-linearity
+### <u>Implicit bias for 2 scalar factor with non-linearity</u>
 To generate Figure-3 in the appendix, please run the `2D_Sigmoid.ipynb` notebook. The notebook contains instructions sequentially.
 
-### SGD with momentum experiments on deep networks
+### <u>SGD with momentum experiments on deep networks</u>
 Run the following command to generate Figure-4 in the paper:
+
     ```
     python train.py --model [model-name] --batch_size [batch-size] --learning_rate [lr] --momentum [beta] --dataset [dataset]
     ```
