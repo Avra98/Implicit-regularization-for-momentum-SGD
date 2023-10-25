@@ -4,10 +4,10 @@
 - [One-time Setup](#one-time-setup)
 - [Updating](#updating)
 - [Working with the Code](#working-with-the-code)
-- [Reproducing results](#Reproducing-results)
-  - [Figure-1 in Manuscript](#figure-1-in-manuscript)
-  - [Figure-3 in Appendix](#figure-3-in-appendix)
-  - [Figure-4 in Manuscript](#figure-2-3-and-4-in-manuscript)
+- [Experiments](#Reproducing-results)
+  - [Implicit bias for 2 linear scalar factor ](#Implicit-bias-for-2-linear-scalar-factor)
+  - [Implicit bias for 2 scalar factor with non-linearity](#Implicit-bias-for-2-scalar-factor-with-non-linearity)
+  - [SGD with momentum experiments on deep networks](#SGD-with-momentum-experiments-on-deep-networks)
 
 ## One-time Setup
 1. Install a working version of conda.
@@ -47,7 +47,7 @@ To generate Figure-1 in the manuscript, please run the `2D_example.ipynb` notebo
 ### Implicit bias for 2 scalar factor with non-linearity
 To generate Figure-3 in the appendix, please run the `2D_Sigmoid.ipynb` notebook. The notebook contains instructions sequentially.
 
-### SGD with momentum experiments on deep networks (Figure-4)
+### SGD with momentum experiments on deep networks
 Run the following command to generate Figure-4 in the paper:
     ```bash
     python train.py --model [model-name] --batch_size [batch-size] --learning_rate [lr] --momentum [beta] --dataset [dataset]
@@ -59,8 +59,7 @@ Run the following command to generate Figure-4 in the paper:
 
 ## Citation and Paper
 
-This work has been published in [ICLR-2023](https://openreview.net/forum?id=
-ZzdBhtEH9yB.) as a Spotlight paper. You can read the full paper on [arXiv](https://arxiv.org/abs/2302.00849).
+This work has been published in [ICLR-2023](https://openreview.net/forum?id=ZzdBhtEH9yB.) as a Spotlight paper. You can read the full paper on [arXiv](https://arxiv.org/abs/2302.00849).
 
 To cite this work, please use the following BibTeX entry:
 
