@@ -32,6 +32,7 @@
 
 ## Working with the Code
 Activate the conda environment before working with the code: 
+
     ```
     conda activate momentum
     ```
