@@ -51,9 +51,9 @@ To generate Figure-3 in the appendix, please run the `2D_Sigmoid.ipynb` notebook
 ### <u>SGD with momentum experiments on deep networks</u>
 Run the following command to generate Figure-4 in the paper:
 
-    ```
+    
     python train.py --model [model-name] --batch_size [batch-size] --learning_rate [lr] --momentum [beta] --dataset [dataset]
-    ```
+    
 #### Available Options
 - `model-name`: Choose from 'resnet18', 'resnet50', 'densenet121', 'wide'
 - `dataset`: Choose from 'cifar-10', 'cifar-100'
