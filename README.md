@@ -5,34 +5,34 @@
 - [Updating](#updating)
 - [Working with the Code](#working-with-the-code)
 - [Experiments](#Reproducing-results)
-  - [Implicit bias for 2 linear scalar factor ](#Implicit-bias-for-2-linear-scalar-factor)
+  - [Implicit bias for 2 linear scalar factor](#Implicit-bias-for-2-linear-scalar-factor)
   - [Implicit bias for 2 scalar factor with non-linearity](#Implicit-bias-for-2-scalar-factor-with-non-linearity)
   - [SGD with momentum experiments on deep networks](#SGD-with-momentum-experiments-on-deep-networks)
 
 ## One-time Setup
 1. Install a working version of conda.
 2. Create a conda environment: 
-    ```bash
+    ```
     conda env create -f environment.yml
     ```
 3. Activate the conda environment: 
-    ```bash
+    ```
     conda activate momentum
     ```
 
 ## Updating
 1. Pull the latest changes: 
-    ```bash
+    ```
     git pull
     ```
 2. Update the conda environment: 
-    ```bash
+    ```
     conda env update -f environment.yml
     ```
 
 ## Working with the Code
 Activate the conda environment before working with the code: 
-    ```bash
+    ```
     conda activate momentum
     ```
 
@@ -49,7 +49,7 @@ To generate Figure-3 in the appendix, please run the `2D_Sigmoid.ipynb` notebook
 
 ### SGD with momentum experiments on deep networks
 Run the following command to generate Figure-4 in the paper:
-    ```bash
+    ```
     python train.py --model [model-name] --batch_size [batch-size] --learning_rate [lr] --momentum [beta] --dataset [dataset]
     ```
 #### Available Options
@@ -59,7 +59,7 @@ Run the following command to generate Figure-4 in the paper:
 
 ## Citation and Paper
 
-This work has been published in [ICLR-2023](https://openreview.net/forum?id=ZzdBhtEH9yB.) as a Spotlight paper. You can read the full paper on [arXiv](https://arxiv.org/abs/2302.00849).
+This work has been published in [ICLR-2023](https://openreview.net/forum?id=ZzdBhtEH9yB) as a Spotlight paper. You can read the full paper on [arXiv](https://arxiv.org/abs/2302.00849).
 
 To cite this work, please use the following BibTeX entry:
 
@@ -70,3 +70,4 @@ To cite this work, please use the following BibTeX entry:
   journal={arXiv preprint arXiv:2302.00849},
   year={2023}
 }
+
