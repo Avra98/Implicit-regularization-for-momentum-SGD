@@ -1,0 +1,11 @@
+name: momentum
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - numpy
+  - pillow  # PIL is required for torchvision
+  - cpuonly  # Remove this if you have a CUDA-compatible GPU
